@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="8dp"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/first_name_field"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginVertical="8dp"
+            android:layout_marginHorizontal="8dp"
+            android:hint="First Name"
+            android:minHeight="96dp" />
+
+        <EditText
+            android:id="@+id/last_name_field"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginVertical="8dp"
+            android:layout_marginHorizontal="8dp"
+            android:hint="Last Name"
+            android:minHeight="96dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/reg_no_field"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="8dp"
+            android:layout_marginHorizontal="8dp"
+            android:layout_weight="1"
+            android:hint="Reg. No."
+            android:minHeight="96dp" />
+
+        <EditText
+            android:id="@+id/roll_no_field"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="8dp"
+            android:layout_marginHorizontal="8dp"
+            android:layout_weight="1"
+            android:hint="Roll No."
+            android:minHeight="96dp" />
+
+        <EditText
+            android:id="@+id/section_field"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="8dp"
+            android:layout_marginHorizontal="8dp"
+            android:layout_weight="1"
+            android:hint="Section"
+            android:minHeight="96dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/mobile_field"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginVertical="8dp"
+            android:layout_marginHorizontal="8dp"
+            android:hint="Mobile"
+            android:minHeight="96dp" />
+
+        <EditText
+            android:id="@+id/email_field"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginVertical="8dp"
+            android:layout_marginHorizontal="8dp"
+            android:hint="Email"
+            android:minHeight="96dp" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/submit_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="96dp"
+        android:text="Submit"
+        android:textSize="64sp"
+        android:onClick="onSubmit" />
+
+</LinearLayout>
