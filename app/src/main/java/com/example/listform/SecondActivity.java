@@ -23,8 +23,7 @@ public class SecondActivity extends AppCompatActivity {
 
         ArrayList<String> listData = new ArrayList<>();
 
-        listData.add(intent.getStringExtra(MainActivity.FIRST_NAME));
-        listData.add(intent.getStringExtra(MainActivity.LAST_NAME));
+        listData.add(intent.getStringExtra(MainActivity.FIRST_NAME) + " " + intent.getStringExtra(MainActivity.LAST_NAME));
         listData.add(intent.getStringExtra(MainActivity.REG_NO));
         listData.add(intent.getStringExtra(MainActivity.ROLL_NO));
         listData.add(intent.getStringExtra(MainActivity.SECTION));
